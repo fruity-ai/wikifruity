@@ -1,7 +1,7 @@
-site_name: WikiFruity
-site_description: A comprehensive wiki powered by MkDocs
-site_author: WikiFruity Team
-site_url: https://your-username.github.io/wikifruity
+site_name: Wiki for Fruity AI
+site_description: An internal wiki Fruity AI
+site_author: Team Fruity
+site_url: https://fruity-ai.github.io/wikifruity
 
 # Repository
 repo_name: fruity-ai/wikifruity
@@ -45,7 +45,7 @@ plugins:
   - minify:
       minify_html: true
   - encryptcontent:
-      global_password: "Z5ueI6mP0RvZ+Uh2Lt+/p8jVLKdaPxzJJY+Rwfgu4fw=" # protects all pages (256-bit entropy)
+      global_password: "Mango2024Orange!Papaya7Kiwi#Blueberry99Pomegranate@Dragon3Fruit" # protects all pages
       remember_password: true # optional
 
 # Customization
