@@ -48,7 +48,7 @@ plugins:
       remember_password: true # optional
       title_prefix: "" # removes [protected] prefix from links
       summary: "" # removes protected summary text
-      search_index: "encrypted" # includes encrypted content in search index after decryption
+      search_index: "clear" # keeps search index unencrypted for functionality
   - minify:
       minify_html: true
 
