@@ -45,7 +45,7 @@ plugins:
   - minify:
       minify_html: true
   - encryptcontent:
-      global_password: "Marmalade!" # protects all pages
+      global_password: "Z5ueI6mP0RvZ+Uh2Lt+/p8jVLKdaPxzJJY+Rwfgu4fw=" # protects all pages (256-bit entropy)
       remember_password: true # optional
 
 # Customization
