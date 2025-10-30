@@ -1,0 +1,28 @@
+[build]
+  # Directory to build the site from
+  base = "/"
+
+  # Build command
+  command = "pip install -r requirements.txt && mkdocs build"
+
+  # Directory with the deployed site
+  publish = "site"
+
+[build.environment]
+  # Python version
+  PYTHON_VERSION = "3.9"
+
+# Redirect rules (optional)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security (optional)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
