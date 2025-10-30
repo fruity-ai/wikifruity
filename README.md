@@ -120,7 +120,7 @@ This wiki is configured for automatic deployment to GitHub Pages:
 
 3. **Automatic build and deploy**
    GitHub Actions will automatically build and deploy your site to:
-   `https://your-username.github.io/wikifruity`
+   `https://fruity-ai.github.io/wikifruity`
 
 ### Manual Deployment
 
