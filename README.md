@@ -2,7 +2,7 @@
 
 A modern, responsive wiki powered by MkDocs and Material Design. Perfect for documentation, knowledge bases, project wikis, and collaborative content creation.
 
-[![Deploy MkDocs to GitHub Pages](https://github.com/your-username/wikifruity/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/wikifruity/actions/workflows/ci.yml)
+[![Deploy MkDocs to GitHub Pages](https://github.com/fruity-ai/wikifruity/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/wikifruity/actions/workflows/ci.yml)
 [![MkDocs](https://img.shields.io/badge/MkDocs-1.5+-blue.svg)](https://www.mkdocs.org/)
 [![Material Theme](https://img.shields.io/badge/Material-Theme-indigo.svg)](https://squidfunk.github.io/mkdocs-material/)
 
