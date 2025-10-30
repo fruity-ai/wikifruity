@@ -42,13 +42,15 @@ theme:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+      lang: en
   - encryptcontent:
       global_password: "Mango2024Orange!Papaya7Kiwi#Blueberry99Pomegranate@Dragon3Fruit" # protects all pages
       remember_password: true # optional
       title_prefix: "" # removes [protected] prefix from links
       summary: "" # removes protected summary text
+      search_index: "encrypted" # includes encrypted content in search index after decryption
+  - minify:
+      minify_html: true
 
 # Customization
 extra:
