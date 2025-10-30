@@ -48,7 +48,7 @@ plugins:
       remember_password: true # optional
       title_prefix: "" # removes [protected] prefix from links
       summary: "" # removes protected summary text
-      search_index: "dynamic"
+      search_index: "dynamically"
   - minify:
       minify_html: true
 
