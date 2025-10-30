@@ -4,8 +4,8 @@ site_author: WikiFruity Team
 site_url: https://your-username.github.io/wikifruity
 
 # Repository
-repo_name: your-username/wikifruity
-repo_url: https://github.com/your-username/wikifruity
+repo_name: fruity-ai/wikifruity
+repo_url: https://github.com/fruity-ai/wikifruity
 
 # Configuration
 theme:
@@ -49,9 +49,9 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/your-username
+      link: https://github.com/fruity-ai
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/fruity-ai
 
 # Extensions
 markdown_extensions:
@@ -98,18 +98,5 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Getting Started:
-      - Introduction: getting-started/introduction.md
-      - Installation: getting-started/installation.md
-      - Quick Start: getting-started/quick-start.md
-  - User Guide:
-      - Overview: user-guide/overview.md
-      - Basic Usage: user-guide/basic-usage.md
-      - Advanced Features: user-guide/advanced-features.md
-  - API Reference:
-      - Overview: api/overview.md
-      - Endpoints: api/endpoints.md
-  - Contributing:
-      - Guidelines: contributing/guidelines.md
-      - Development: contributing/development.md
-  - About: about.md
+  - Developer Guide: developer-guide.md
+  - Branding: branding.md
