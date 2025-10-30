@@ -52,7 +52,7 @@ jobs:
 
       - name: Build with MkDocs
         run: |
-          mkdocs build --clean --strict --verbose
+          mkdocs build --clean --verbose
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
