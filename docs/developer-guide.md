@@ -2,9 +2,7 @@
 
 Welcome to our Developer Guide.
 
-## How-To Videos
-
-### How do I extend a trial?
+## How do I extend a trial?
 
 Learn how to extend a trial period with this step-by-step video guide:
 
